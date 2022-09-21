@@ -1,0 +1,23 @@
+{
+  "name": "nodebootstraper",
+  "version": "5.0.0",
+  "dependencies": {
+    "body-parser": "*",
+    "cairo": "^0.1.0-alpha.3",
+    "canvas": "^2.9.3",
+    "express": "*",
+    "extract-colors": "^1.1.22",
+    "giflib": "^0.1.7-beta",
+    "make-color-accessible": "^1.2.0",
+    "method-override": "*",
+    "morgan": "*",
+    "pkg-config": "^1.1.1",
+    "pug": "*",
+    "serve-favicon": "*",
+    "stylus": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}

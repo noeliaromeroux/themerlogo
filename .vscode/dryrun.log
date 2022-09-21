@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/Shared/Proyectos/Codeoscopic/Codigo/ColorPalette/Node.js-Bootstrap-Starter-Template'
+make: Leaving directory `/Users/Shared/Proyectos/Codeoscopic/Codigo/ColorPalette/Node.js-Bootstrap-Starter-Template'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
