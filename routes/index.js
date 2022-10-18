@@ -18,8 +18,14 @@ const src14 =  './public/images/image 14.png';
 const src15 =  './public/images/image 15.png';
 const src16 =  './public/images/image 16.png';
 const src17 =  './public/images/image 17.png';
+const src18 =  './public/images/image 18.png';
+const src19 =  './public/images/image 19.png';
+const src20 =  './public/images/image 20.png';
+const src21 =  './public/images/image 21.png';
+const src22 =  './public/images/image 22.png';
+const src23 =  './public/images/image 23.png';
 
-const src = [src1, src2, src3, src4, src5, src6, src7,src8, src9, src10,src11, src12, src13,src14, src15, src16, src17]
+const src = [src18, src19, src20, src21, src22, src23, src1, src2, src3, src4, src5, src6, src7,src8, src9, src10,src11, src12, src13,src14, src15, src16, src17]
 
 const options = {
   pixels: 10000,
@@ -38,6 +44,7 @@ exports.index = async function(req, res){
       let colorHex = color[0].hex;
 
       return {src: srcRoute.replace('public/', ''), color: makeColorAccessible(colorHex)};
+      //return {src: srcRoute.replace('public/', ''), color: colorHex};
     })
   )
   res.render('index', {posts});
